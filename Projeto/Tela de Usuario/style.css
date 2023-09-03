@@ -1,0 +1,75 @@
+/* Importe a fonte se você ainda não o fez */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background: #201b2c;
+    color: #f0ffffde; /* Cor de texto global */
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main-avaliacao {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Estilos para os elementos de avaliação de filmes */
+.card-filme {
+    width: 300px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card-filme h2 {
+    color: #00ff88;
+    font-weight: 800;
+}
+
+/* Estilos para os botões de classificação */
+.btn-like,
+.btn-dislike {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.btn-like:hover,
+.btn-dislike:hover {
+    background: #00cc77; /* Altere a cor de fundo quando o botão for hover, se desejar */
+}
+
+/* Estilos para o campo de comentários */
+.textarea-comentario {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    color: #f0ffffde;
+}
+
+/* Outros estilos conforme necessário */
